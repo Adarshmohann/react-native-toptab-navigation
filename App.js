@@ -48,6 +48,13 @@ function Mystack(){
       component={Login}
       options={{headerShown: false}}
       />
+
+      <stack.Screen
+      name="Drawercont"
+      component={Drawercont}
+      options={{headerShown: false}}
+      />
+
       <stack.Screen
       name ='Flexbox'
       component={Flexbox}

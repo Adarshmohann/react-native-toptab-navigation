@@ -49,7 +49,7 @@ export default class Login extends Component{
            </TextInput>
            <TouchableHighlight style={styles.buttonView} 
            underlayColor='transparent'
-           onPress={()=> this.props.navigation.navigate('Tab',{Username:this.state.name})}>
+           onPress={()=> this.props.navigation.navigate('Drawercont',{Username:this.state.name})}>
             <Text style={styles.buttontext}>login
 
             </Text>
